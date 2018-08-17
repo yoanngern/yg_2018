@@ -1,0 +1,134 @@
+@import 'base/intro';
+@import "base/reset";
+@import "base/font";
+@import "base/color";
+@import "base/functions";
+@import "base/tools";
+@import "advanced/header";
+@import "advanced/footer";
+@import "advanced/content";
+@import "advanced/section";
+@import "advanced/home";
+@import "advanced/elementor";
+@import "advanced/tmp_default";
+@import "advanced/ninja_form";
+
+body {
+    font-family: $cormorant-med;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    color: $black;
+    background-color: $white;
+
+    &.black {
+        background-color: $black;
+    }
+
+    & > header,
+    footer {
+
+        .content {
+
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        a.logo {
+            color: $white;
+            text-decoration: none;
+            font-size: 1.4em;
+            position: relative;
+            display: inline-block;
+
+            span.underline {
+                height: 4px;
+                background-color: $gold;
+                width: 100%;
+                margin: 7px 0 0;
+                display: block;
+            }
+        }
+
+        nav {
+            float: right;
+
+            ul {
+                li {
+                    display: inline-block;
+                    padding: 0 15px;
+
+                    a {
+                        color: $white;
+                        font-size: 1.2em;
+                        text-decoration: none;
+                        padding: 2px 0 4px;
+                        letter-spacing: 0.05em;
+                        position: relative;
+
+                        &:after {
+                            content: '';
+                            display: block;
+                            opacity: 0;
+                            width: 100%;
+                            height: 2px;
+                            background-color: $gold;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            transition: opacity 200ms ease-in-out;
+                        }
+
+                        &:hover {
+                            &:after {
+                                opacity: 1;
+                            }
+                        }
+
+                    }
+
+                    &.main a:hover:after {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

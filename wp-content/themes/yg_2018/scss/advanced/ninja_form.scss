@@ -1,0 +1,246 @@
+.nf-form-cont {
+
+    .nf-form-title {
+
+    }
+
+    .nf-form-wrap {
+
+        .nf-form-layout {
+
+            .nf-before-form-content {
+                margin: 10px 0 20px;
+                color: $gray;
+            }
+
+            .nf-form-content {
+
+                .nf-mp-body {
+
+                }
+            }
+        }
+
+    }
+
+    .nf-before-form-content div {
+        font-size: 0.8em;
+    }
+
+    .label-above {
+        .nf-field-label {
+            margin-bottom: 5px;
+        }
+    }
+
+    .ninja-forms-req-symbol,
+    .nf-error-msg {
+        color: $gold;
+        font-family: $cormorant-med;
+    }
+
+    .nf-error-msg {
+        font-size: 0.8em;
+    }
+
+    .nf-help {
+        background-size: contain;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.nf-multi-cell {
+    div.nf-cell {
+        padding: 0 2% 0 0;
+    }
+}
+
+.nf-row {
+    .nf-cell {
+
+        .donation {
+            .nf-field-label {
+                width: auto;
+            }
+
+            .nf-field-element {
+                width: 70px;
+
+                input {
+                    text-align: right;
+                }
+            }
+
+            .nf-field-description {
+                margin-left: 10px;
+                width: auto;
+                display: inline-block;
+                line-height: 36px;
+
+                span {
+                    line-height: 100%;
+                    margin: 0;
+                    font-size: 1.2em;
+                    font-family: $cormorant;
+                }
+            }
+        }
+
+        .nf-field-container {
+            margin-bottom: 10px;
+
+            label {
+                font-family: $cormorant-semibold;
+                font-weight: normal;
+                font-size: 1.2em;
+                letter-spacing: 0.03em;
+                color: $black;
+                position: relative;
+                padding-right: 2px;
+
+                &:after {
+                    content: ':';
+                    display: inline;
+                    margin-left: -2px;
+                }
+            }
+
+            .nf-field-label {
+                padding-left: 0;
+                //width: 30%;
+                padding-right: 0;
+            }
+
+            input,
+            textarea {
+                display: inline-block;
+                outline: none;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid $gray;
+                padding: 4px;
+                margin: 1px;
+                font-size: 1em;
+                font-family: $cormorant;
+
+                &:focus {
+                    border-bottom: 1px solid $black;
+                }
+
+                &[type="button"] {
+
+                    letter-spacing: 0.04em;
+                    background-color: transparent;
+                    cursor: pointer;
+                    outline: none;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+
+                    color: $gold;
+                    text-decoration: none;
+                    transition: all 200ms ease-in-out;
+                    border: 2px solid $gold;
+                    border-radius: 3px;
+                    font-family: $cormorant-bold;
+                    font-size: 1.2em;
+                    line-height: 1.2em;
+                    padding: 2px 10px;
+                    display: inline-block;
+                    margin: 10px 10px 0 0;
+
+                    &:hover {
+                        text-decoration: none;
+                        background-color: $gold;
+                        color: $white;
+
+                    }
+                }
+
+                &[type="checkbox"] {
+                    cursor: pointer;
+                }
+            }
+
+            textarea {
+                background-image: -webkit-linear-gradient(left, white 0px, transparent 0px), -webkit-linear-gradient(right, white 0px, transparent 0px), -webkit-linear-gradient(white 20px, lighten($gray, 10) 20px, lighten($gray, 10) 21px, white 21px);
+                background-image: -moz-linear-gradient(left, white 0px, transparent 0px), -moz-linear-gradient(right, white 0px, transparent 0px), -moz-linear-gradient(white 20px, lighten($gray, 10) 20px, lighten($gray, 10) 21px, white 21px);
+                background-image: -ms-linear-gradient(left, white 0px, transparent 0px), -ms-linear-gradient(right, white 0px, transparent 0px), -ms-linear-gradient(white 20px, lighten($gray, 10) 20px, lighten($gray, 10) 21px, white 21px);
+                background-image: -o-linear-gradient(left, white 0px, transparent 0px), -o-linear-gradient(right, white 0px, transparent 0px), -o-linear-gradient(white 20px, lighten($gray, 10) 20px, lighten($gray, 10) 21px, white 21px);
+                background-image: linear-gradient(left, white 0px, transparent 0px), linear-gradient(right, white 0px, transparent 0px), linear-gradient(white 20px, #ccc 20px, lighten($gray, 10) 21px, white 21px);
+                background-size: 100% 100%, 100% 100%, 100% 21px;
+                padding: 0;
+                width: 100%;
+                height:140px;
+                line-height: 21px;
+                border-bottom: none;
+
+                &:focus {
+                    border: none;
+                }
+            }
+
+            &.label-left {
+
+            }
+
+        }
+    }
+}
+
+#content .nf-row .nf-cell {
+    .listcheckbox-wrap,
+    .listradio-wrap {
+
+        label:after {
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+        }
+
+        ul {
+            //margin-top: 5px !important;
+            margin-left: 5px !important;
+
+            li {
+                margin-right: 15px !important;
+                font-size: 14px;
+                letter-spacing: normal;
+
+                &:before {
+                    content: none;
+                }
+
+                input {
+                    margin-right: 6px;
+                    vertical-align: top;
+                }
+
+                label {
+                    vertical-align: top;
+                    font-family: $cormorant;
+                    font-weight: normal;
+                    text-transform: none;
+                    font-size: 14px;
+                    line-height: normal;
+                    padding: 0;
+                    margin: 0;
+                    display: inline;
+
+                    &:after {
+                        content: '';
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .label-left .html-wrap {
+        .nf-field-element {
+            margin-left: 35%;
+        }
+    }
+}

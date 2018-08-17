@@ -1,0 +1,73 @@
+footer {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    color: $white;
+    background-color: $black;
+    padding: 70px 0;
+
+    .content {
+        max-width: 1200px;
+    }
+
+    ul.social {
+        display: block;
+        margin: 70px auto 0;
+        width: 90%;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            padding: 0 10px;
+
+            a {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: block;
+                width: 25px;
+                height: 25px;
+            }
+
+            &.twitter a {
+                background-image: url('images/twitter.png');
+            }
+
+            &.facebook a {
+                background-image: url('images/facebook.png');
+            }
+
+            &.youtube a {
+                background-image: url('images/youtube.png');
+            }
+
+            &.instagram a {
+                background-image: url('images/instagram.png');
+            }
+
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .content {
+            text-align: center;
+
+            nav {
+                float: inherit;
+                display: block;
+                margin: 30px auto 0;
+
+                ul {
+                    li {
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+
+        ul.social {
+            margin: 30px auto 0;
+
+        }
+    }
+}
