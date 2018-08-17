@@ -23,7 +23,10 @@ body.page-template-page-home {
         @media only screen and (max-width: 480px) {
             article.title {
                 padding-bottom: 60vh;
-                bottom: 25%;
+
+                div.title {
+                    bottom: 25%;
+                }
             }
         }
 
