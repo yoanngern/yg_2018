@@ -420,6 +420,127 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 751,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 753,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 761,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 769,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 767,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 742,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 735,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 741,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 740,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 754,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 754,
+		"oA": 0,
+		"oAP": "\/images\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,

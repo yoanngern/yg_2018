@@ -124,6 +124,7 @@
                 margin: 1px;
                 font-size: 1em;
                 font-family: $cormorant;
+                border-radius: 0;
 
                 &:focus {
                     border-bottom: 1px solid $black;
@@ -241,6 +242,7 @@
     .label-left .html-wrap {
         .nf-field-element {
             margin-left: 35%;
+            width: 65%;
         }
     }
 }
