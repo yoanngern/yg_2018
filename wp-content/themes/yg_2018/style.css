@@ -650,14 +650,15 @@ body.page-template-default #content div.platter article.content-page div.content
   width: 65%; }
 
 .elfsight-widget .eapps-instagram-feed-posts-grid-load-more {
-  color: #C19A58;
+  color: #FFFFFF;
+  background-color: transparent !important;
   text-decoration: none;
   transition: all 200ms ease-in-out;
   border: 2px solid #C19A58;
   border-radius: 3px;
   font-family: "cormorant_garamondbold", "cormorant_garamondsemibold", "cormorant_garamondmedium", "cormorant_garamondregular", serif;
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 20px;
+  line-height: 24px;
   padding: 2px 10px;
   display: inline-block;
   margin: 10px 10px 0 0; }
