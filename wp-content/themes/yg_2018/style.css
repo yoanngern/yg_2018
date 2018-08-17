@@ -649,6 +649,9 @@ body.page-template-default #content div.platter article.content-page div.content
   margin-left: 35%;
   width: 65%; }
 
+.elfsight-widget .eapps-instagram-feed-posts-grid-load-more-container {
+  text-align: center; }
+
 .elfsight-widget .eapps-instagram-feed-posts-grid-load-more {
   color: #FFFFFF;
   background-color: transparent !important;
@@ -659,7 +662,9 @@ body.page-template-default #content div.platter article.content-page div.content
   font-family: "cormorant_garamondbold", "cormorant_garamondsemibold", "cormorant_garamondmedium", "cormorant_garamondregular", serif;
   padding: 2px 10px;
   display: inline-block;
-  margin: 10px 10px 0 0; }
+  margin: 10px 10px 0 0;
+  height: inherit;
+  width: inherit; }
   .elfsight-widget .eapps-instagram-feed-posts-grid-load-more div {
     font-size: 20px;
     line-height: 24px; }

@@ -1,4 +1,9 @@
 .elfsight-widget {
+
+    .eapps-instagram-feed-posts-grid-load-more-container {
+        text-align: center;
+    }
+
     .eapps-instagram-feed-posts-grid-load-more {
 
         color: $white;
@@ -11,6 +16,8 @@
         padding: 2px 10px;
         display: inline-block;
         margin: 10px 10px 0 0;
+        height: inherit;
+        width: inherit;
 
         div {
             font-size: 20px;
