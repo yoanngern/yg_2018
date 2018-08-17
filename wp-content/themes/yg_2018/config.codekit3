@@ -354,6 +354,79 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/images\/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 191,
+		"oA": 0,
+		"oAP": "\/images\/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 734,
+		"oA": 0,
+		"oAP": "\/images\/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 738,
+		"oA": 0,
+		"oAP": "\/images\/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 749,
+		"oA": 0,
+		"oAP": "\/images\/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 756,
+		"oA": 0,
+		"oAP": "\/images\/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/browserconfig.xml",
+		"oF": 0
+		},
 	"\/images\/facebook.png": {
 		"ft": 32768,
 		"iS": 872,
@@ -365,11 +438,103 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 730,
+		"oA": 0,
+		"oAP": "\/images\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/images\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 756,
+		"oA": 0,
+		"oAP": "\/images\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/favicon.ico",
+		"oF": 0
+		},
 	"\/images\/instagram.png": {
 		"ft": 32768,
 		"iS": 1816,
 		"oA": 0,
 		"oAP": "\/images\/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/images\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/images\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/images\/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 785,
+		"oA": 0,
+		"oAP": "\/images\/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 892,
+		"oA": 0,
+		"oAP": "\/images\/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 747,
+		"oA": 0,
+		"oAP": "\/images\/ms-icon-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
