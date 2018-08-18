@@ -33,7 +33,7 @@ $(document).ready(function () {
     $('#open_lang').click(function (e) {
         e.preventDefault();
 
-        $('body > header > .local #language').toggleClass('open');
+        $('body > header #language').toggleClass('open');
     });
 
 

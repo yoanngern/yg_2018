@@ -10,7 +10,7 @@
 	$og_locale      = get_locale();
 	$og_name        = get_the_title();
 	$og_title       = get_the_title();
-	$og_image       = "";
+	$og_image       = get_template_directory_uri() . "/images/facebook_default_home.jpg";
 	$og_description = get_bloginfo( 'description' );
 
 
@@ -47,7 +47,7 @@
 
 	if ( get_field( 'fb_image' ) ) {
 
-		$og_image = get_field( 'fb_image' )['sizes']['full_hd'];
+		//$og_image = get_field( 'fb_image' )['sizes']['full_hd'];
 
 	}
 

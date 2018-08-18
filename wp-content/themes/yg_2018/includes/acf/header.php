@@ -30,6 +30,25 @@ if( function_exists('acf_add_local_field_group') ):
 				'max_size' => '',
 				'mime_types' => '',
 			),
+			array(
+				'key' => 'field_5b75477872150',
+				'label' => 'Subtitle',
+				'name' => 'subtitle',
+				'type' => 'textarea',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '49',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => '',
+				'new_lines' => 'br',
+			),
 		),
 		'location' => array(
 			array(
@@ -37,16 +56,6 @@ if( function_exists('acf_add_local_field_group') ):
 					'param' => 'post_type',
 					'operator' => '==',
 					'value' => 'page',
-				),
-				array(
-					'param' => 'post_template',
-					'operator' => '!=',
-					'value' => 'page-home.php',
-				),
-				array(
-					'param' => 'post_template',
-					'operator' => '!=',
-					'value' => 'page-tv.php',
 				),
 			),
 		),

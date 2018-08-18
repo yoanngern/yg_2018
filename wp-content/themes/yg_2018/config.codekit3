@@ -559,6 +559,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/facebook_default_home.jpg": {
+		"ft": 16384,
+		"iS": 1657884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/facebook_default_home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 730,
@@ -691,6 +702,13 @@
 		"oAP": "\/includes\/acf\/buttons.php",
 		"oF": 0
 		},
+	"\/includes\/acf\/content.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/acf\/content.php",
+		"oF": 0
+		},
 	"\/includes\/acf\/date.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -717,6 +735,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/acf\/header.php",
+		"oF": 0
+		},
+	"\/includes\/acf\/home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/acf\/home.php",
 		"oF": 0
 		},
 	"\/includes\/acf\/menu_item.php": {
