@@ -47,7 +47,7 @@
 
 	if ( get_field( 'fb_image' ) ) {
 
-		//$og_image = get_field( 'fb_image' )['sizes']['full_hd'];
+		$og_image = get_field( 'fb_image' )['sizes']['full_hd'];
 
 	}
 
